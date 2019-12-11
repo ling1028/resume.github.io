@@ -1,0 +1,173 @@
+body{
+	font-family: "微軟正黑體";
+	background: rgb(150,205,205);
+}
+.top{
+	background: rgb(0,134,139);
+	width: 60%;
+	margin: auto;
+	border-radius: 25px;
+}
+.myself{width:500px; height:350px;overflow:hidden;}
+.myself img{transform:scale(1,1);transition: all 1s ease-out;}
+.myself img:hover{transform:scale(1.2,1.2);}
+.self_introduction{
+	color: white;
+	padding: 10px;
+}	
+.skill{
+	width: 60%;
+	margin: auto;
+	font-weight:bolder;
+	color:black;
+	background: rgb(102,205,170);
+	border-radius: 25px;
+}
+.skill_name{
+	font-size: 40px;
+}
+.bar{
+	width: 80%;
+	background-color: white;
+	border: solid;
+	border-color: black;
+	border-bottom-right-radius: 25px;
+	border-top-right-radius: 25px;
+}
+.bar1{
+	width: 60%;
+	height: 50px;
+	background-color:rgb(155,205,155);
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	line-height: 50px;
+}
+.bar2{
+	width: 40%;
+	height: 50px;
+	background-color:rgb(155,205,155);
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	line-height: 50px;
+}
+.bar3{
+	width: 70%;
+	height: 50px;
+	background-color:rgb(155,205,155);
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	line-height: 50px;
+}
+.bar4{
+	width: 60%;
+	height: 50px;
+	background-color:rgb(155,205,155);
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	line-height: 50px;
+}
+.bar5{
+	width: 40%;
+	height: 50px;
+	background-color:rgb(155,205,155);
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	line-height: 50px;
+}
+.bar6{
+	width: 40%;
+	height: 50px;
+	background-color:rgb(155,205,155);
+	text-align: center;
+	font-size: 30px;
+	color: black;
+	line-height: 50px;
+}
+.experience{
+	width: 60%;
+	margin: auto;
+	background: rgb(255,218,185);
+	border-radius: 25px;
+}
+.pic_left{
+	width: 30%;
+	float: left;
+}
+.p_right{
+	clear: right;
+}
+.exp{font-size: 25px;}
+.pic_right{
+	width: 30%;
+	clear: right;
+}
+.p_left{
+	float: left;
+}
+.contact{
+	margin-top: 50px;
+	margin-left: 20%;
+	width: 60%;
+	background: rgb(238,130,238);
+	border-radius: 25px;
+}
+.con{
+	width: 100px;
+	height: 100px;
+}
+footer{
+	bottom: 0;
+	text-align: center;
+	background: rgb(255,255,255,255);
+	clear: both;
+}
+.toTop-arrow {
+	width: 3.5rem;
+	height: 3.5rem;
+	padding: 0;
+	margin: 0;
+	border: 0;
+	border-radius: 33%;
+	opacity: 0.6;
+	background: #000;
+	cursor: pointer;
+	position:fixed;
+	right: 1rem;
+	bottom: 1rem;
+	display: none;
+}
+.toTop-arrow::before, .toTop-arrow::after {
+	width: 31px;
+	height: 7px;
+	border-radius: 3px;
+	background: #f90;
+	position: absolute;
+	content: "";
+}
+.toTop-arrow::before {
+	transform: rotate(-45deg) translate(0, -50%);
+	left: 0.4rem;
+}
+.toTop-arrow::after {
+	transform: rotate(45deg) translate(0, -50%);
+	right: 0.4rem;
+}
+.toTop-arrow:focus {outline: none;}
+.t{
+	position: fixed;
+	right: 0;
+	top: 50%;
+	width: 8em;
+	margin-top: -2.5em;
+	border: white 3px;
+	border-bottom-left-radius: 20px;
+	border-top-left-radius: 20px;
+	border-style: solid dashed solid solid;
+	background: black;
+	color: white;
+}
