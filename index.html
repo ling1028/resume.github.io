@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>個人履歷</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+	<div class="top" align="center" id="a">
+		<div class="myself">
+			<img src="img/me.jpg" alt="me" class="me">
+		</div>
+		<div class="self_introduction">
+			<h1>林家宏 CHIA-HUNG LIN</h1>
+			<h3>學歷：中原大學 資訊管理學系</h3>
+			<br>
+			<h3>你好，我是林家宏</h3>
+			<h3>目前還在學習許多新的事物，希望自己可以在大學這段期間，過得更充實更努力</h3>
+			<h3><a href="https://ling1028.github.io/selfweb.github.io/">想更了解我</a></h3>
+			<h3><i>"Passion is the genesis of genius."熱情是天才的起源。</i>-伽利略</h3>
+		</div>
+	</div>
+	<div class="skill" id="b">
+		<p style="font-size: 50px;">專業技能</p>
+		<div>
+			<p class="skill_name">Java</p>
+			<div class="bar">
+				<div class="bar1">60%</div>
+			</div>
+		</div>
+		<div>
+			<p class="skill_name">C++</p>
+			<div class="bar">
+				<div class="bar2">40%</div>
+			</div>
+		</div>
+		<div>
+			<p class="skill_name">HTML</p>
+			<div class="bar">
+				<div class="bar3">70%</div>
+			</div>
+		</div>
+		<div>
+			<p class="skill_name">CSS</p>
+			<div class="bar">
+				<div class="bar4">60%</div>
+			</div>
+		</div>
+		<div>
+			<p class="skill_name">JavaScript</p>
+			<div class="bar">
+				<div class="bar5">40%</div>
+			</div>
+		</div>
+		<div>
+			<p class="skill_name">python</p>
+			<div class="bar">
+				<div class="bar5">40%</div>					
+			</div>
+		</div>
+		<br>
+		<br>
+	</div>
+	<div class="experience" id="c">
+		<p style="font-size: 50px;font-weight: bolder;">個人經歷</p>
+		<div>
+			<img src="img/exp1.jpg" alt="" class="pic_left">
+			<div class="p_right">
+				<h1>義賣商品</h1>
+				<p class="exp">企業概論課程中，販賣商品來幫助弱勢團體。</p>
+			</div>
+		</div>
+		<br>
+		<div>
+			<div class="p_left" align="right">
+				<h1>暑期打工</h1>
+				<p class="exp">在飯店打工，學習到許多生活經驗。</p>
+			</div>
+			<img src="img/exp2.jpg" alt="" class="pic_right">
+		</div>
+		<br>
+		<div>
+			<img src="img/exp3.jpg" alt="" class="pic_left">
+			<div class="p_right">
+				<h1>遊玩小琉球</h1>
+				<p class="exp">與好友們一起到小琉球遊玩，了解到台灣的美。</p>
+			</div>
+		</div>
+		<br>
+		<br>
+		<br>
+	</div>
+	<div class="contact" align="center" id="d">
+		<a href="https://www.facebook.com/profile.php?id=100003189828250" title=""><img src="img/fb.png" alt="" class="con"></a>
+		<a href="https://github.com/ling1028" title=""><img src="img/github.png" alt="" class="con"></a>
+	</div>
+	<footer>
+		<p>Copyright © 2019 by ling1028</p>
+	</footer>
+	<table class="t">
+		<tr>
+			<td><a href="#a">關於我</a></td>
+		</tr>
+		<tr>
+			<td><a href="#b">專業技能</a></td>
+		</tr>
+		<tr>
+			<td><a href="#c">個人經歷</a></td>
+		</tr>
+		<tr>
+			<td><a href="#d">聯絡我</a></td>
+		</tr>
+	</table>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<button type="button" id="BackTop" class="toTop-arrow"></button>
+	<script>
+		$(function(){
+			$('#BackTop').click(function(){ 
+				$('html,body').animate({scrollTop:0}, 333);
+			});
+			$(window).scroll(function() {
+				if ( $(this).scrollTop() > 300 ){
+					$('#BackTop').fadeIn(222);
+				} else {
+					$('#BackTop').stop().fadeOut(222);
+				}
+			}).scroll();
+		});
+	</script>
+</body>
+</html>
